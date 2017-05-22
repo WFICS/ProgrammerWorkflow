@@ -1,0 +1,60 @@
+{
+    "plugins": [
+        "flowchart",
+        "footer",
+        "github",
+        "sequence",
+        "plantuml",
+        "tbfed-pagefooter",
+        "etoc",
+        "-tree",
+        "expandable-chapters",
+        "echarts",
+        "baidu"
+    ],
+    "pluginsConfig": {
+        "download-pdf": {
+            "base": "",
+            "label": "Download PDF",
+            "multilingual": false
+        },
+        "github": {
+            "url": "https://github.com/ProgrammerWorkflow/ProgrammerWorkflow"
+        },
+        "etoc": {
+            "mindepth": 3,
+            "maxdepth": 4,
+            "notoc": false
+        },
+        "lunr": {
+            "maxIndexSize": 10000000,
+            "ignoreSpecialCharacters": false
+        },
+        "tbfed-pagefooter": {
+            "copyright": "作者 耿远超",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
+        },
+        "baidu": {
+            "token": "e231f8570a5731e5eb6e3fc46121d96c"
+        }
+    },
+    "author": "耿远超",
+    "generator": "site",
+    "language": "zh-hans"
+}
